@@ -6,5 +6,5 @@ return [
     'port' => '5432',
     'dbname' => 'inventario_db',
     'user' => 'postgres',
-    'password' => 'your_password' // IMPORTANT: Replace with your actual password
+    'password' => '4674' // IMPORTANT: Replace with your actual password
 ];

@@ -12,7 +12,7 @@
     <div class="app-container">
         <nav class="sidebar">
             <div class="sidebar-header">
-                <h1>QASO SYSTEM</h1>
+                <h1>SWI</h1>
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
@@ -21,18 +21,13 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?page=productos">
-                        <span class="nav-icon">📦</span> Nuevo producto
+                    <a class="nav-link" href="?page=inventario">
+                        <span class="nav-icon">📦</span> Inventario
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="?page=movimientos">
                         <span class="nav-icon">📋</span> Movimientos
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="?page=inventario">
-                        <span class="nav-icon">📊</span> Inventario
                     </a>
                 </li>
                 <li class="nav-item">
@@ -55,6 +50,9 @@
 
         <div class="main-content">
             <?php include $content; ?>
+            <footer class="app-footer">
+                <p>&copy; 2025 SWI. Todos los derechos reservados.</p>
+            </footer>
         </div>
     </div>
 

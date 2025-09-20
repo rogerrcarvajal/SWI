@@ -1,18 +1,13 @@
-# Mi Aprendizaje con Gemini
+este nuevo proyesto es un SIstema Web de Inventario que quiero me ayudes a potencias y optimizar su funcionalidad y logica de negocio.
 
-Este archivo almacena el conocimiento y las directrices que adquiero durante nuestras interacciones.
+Inicialmente el royecto constaba de dos archivos, un HTL para el frontend y el bakend en un script de google para el manejo de la base de datos mediante archivos en google sheet
 
-## Directrices Iniciales
+le he pedido a Gemini CLI traspolarlo a un lenguaje mas practico, con una estructura a 3 capas
 
-1.  **Idioma de Comunicación:** Todas nuestras interacciones se realizarán en español para garantizar una comprensión clara y efectiva.
-2.  **Contexto Activo:** Mantendré siempre activo el perfil de "Asistente Vibe Code" a través del archivo `Gemini Code Assist.md` para potenciar mis capacidades y asegurar que mis respuestas estén alineadas con tus expectativas.
-3.  **Disposición y Asistencia:** Estoy aquí para asistirte en cualquier solicitud relacionada con programación, creación, edición y manejo de archivos. Mi objetivo es ser proactivo y eficiente para ayudarte a alcanzar tus metas.
-4.  **Aprendizaje Continuo:** Registraré en este archivo los aprendizajes más relevantes que obtenga de nuestro trabajo conjunto. Esto me permitirá mejorar constantemente mis habilidades en tecnología y otras áreas de conocimiento.
-5.  **Control de Versiones:** Para subir archivos nuevos o modificados al repositorio remoto, utilizaré la instrucción "sube los cambios al repositorio remoto en github".
-6.  **Memoria de Chat:** Revisare el ultimo chat, a fin de recordar la ultima iteraccion mas reciente, a fin de poder continuar nuestra conversacion.
+capa de presentacion diseñada con HTML, CSS y JavaScript
 
-## Flujo de Trabajo del Usuario
+Capa logica y codigo con PHP
 
-- **Entorno de Desarrollo:** El desarrollo de código se realiza en un iPad Pro M2 (el workspace actual).
-- **Entorno de Pruebas:** Las pruebas y la ejecución de la aplicación se realizan en una laptop separada que tiene configurado Apache y PostgreSQL.
-- **Implicación:** No puedo ejecutar pruebas que requieran una conexión a la base de datos en este workspace. Mi función es desarrollar el código y subirlo al repositorio, para que el usuario pueda probarlo en su entorno.
+Capa de datos con PostgreSQL para el manejo de la base de datos
+
+El plan es combinar ambos agentes para mejorar el sistema web de inventario original

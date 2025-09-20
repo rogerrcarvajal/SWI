@@ -407,3 +407,13 @@
         flex-direction: column;
       }
     }
+
+    .app-footer {
+      text-align: center;
+      padding: 20px;
+      background: #F0F8FC;
+      border-top: 1px solid #E5F2F7;
+      color: #6c757d;
+      font-size: 0.9rem;
+      margin-top: 30px;
+    }
